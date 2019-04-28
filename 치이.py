@@ -146,5 +146,5 @@ async def on_message(message):
                 break
         file.save("경고.xlsx")
         await app.send_message(message.channel, "경고접수!")
-
-app.run('NTUyODI2MjY4MTkwNjM4MDkw.D2FLjA.JB2ch8EeBrH4ue2PH49EsLGlA1E')
+access_token = os.environ["BOT_TOKEN"]
+app.run(access_token)

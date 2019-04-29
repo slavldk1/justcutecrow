@@ -1,5 +1,2 @@
 discord.py==0.16.12
-random
-time
-openpyxl.py==1.0.1
-os
+openpyxl==1.0.1

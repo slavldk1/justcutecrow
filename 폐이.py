@@ -82,5 +82,5 @@ async def on_message(message):
         if randomNum==2:
             await message.channel.send("[내가 그렇게 보고싶었음?]")
 
-
+assess_token = os.environ["BOT_TOKEN"]
 app.run(access_token)

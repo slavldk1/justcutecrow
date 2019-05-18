@@ -1,1 +1,1 @@
-worker: python .py
+worker: python 폐이.py

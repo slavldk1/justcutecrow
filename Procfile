@@ -1,1 +1,1 @@
-worker: python 치이.py
+worker: python .py

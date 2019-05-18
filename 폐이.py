@@ -7,7 +7,7 @@ from discord.ext import commands
 import os
 app = discord.Client()
 bot = bot = commands.Bot(command_prefix=".")
-token = "NTUzNTU3NDExNDUzOTkyOTYx.D2P0QA.4Vvd7X9sCVptThCX4Jn29OAQHpQ"
+
 
 @app.event
 async def on_ready():
@@ -83,4 +83,4 @@ async def on_message(message):
             await message.channel.send("[내가 그렇게 보고싶었음?]")
 
 
-app.run(token)
+app.run(access_token)

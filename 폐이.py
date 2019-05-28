@@ -6,7 +6,7 @@ import openpyxl
 from discord.ext import commands
 import os
 app = discord.Client()
-bot = bot = commands.Bot(command_prefix=".")
+bot = commands.Bot(command_prefix=".")
 
 
 @app.event
@@ -82,5 +82,4 @@ async def on_message(message):
         if randomNum==2:
             await message.channel.send("[내가 그렇게 보고싶었음?]")
 
-assess_token = os.environ["BOT_TOKEN"]
-app.run(access_token)
+app.run("NTUzNTU3NDExNDUzOTkyOTYx.D2P0QA.4Vvd7X9sCVptThCX4Jn29OAQHpQ")
